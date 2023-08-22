@@ -1,0 +1,10 @@
+ --- The ffmpeg_remote_player ---
+ 
+ How to use it:
+ 1) add your valid path to local builds of ffmpeg and opencv to CMakeList.txt
+ 2) or include this libraries by some other way
+ 3) run ./build.sh
+ 4) if it will be done then you can test it by run ./test.sh
+ 5) use ./clean.sh for remove the builds
+ 
+ P.S.: client/server works now with opencv encoding
